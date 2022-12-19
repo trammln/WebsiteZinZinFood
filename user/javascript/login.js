@@ -30,7 +30,6 @@ function openFormLogin() {
     document.getElementById("tab-container2").style.display = "none";
     document.getElementById("tab-container1").style.display = "block";
     document.body.style.setProperty('overflow', 'hidden');
-    document.body.style.backgroundColor = 'rgb(0, 0, 0, 0.4)';
   }
   
 function closeFormLogin() {
@@ -43,7 +42,6 @@ function closeFormLogin() {
     document.getElementById("tab-container1").style.display = "none";
     document.getElementById("tab-container2").style.display = "block";
     document.body.style.setProperty('overflow', 'hidden');
-    document.body.style.backgroundColor = 'rgb(0, 0, 0, 0.4)';
   }
   
   function closeFormForgot() {
