@@ -13,6 +13,7 @@
     background-color: var(--light_gray);
 }
 #header{
+    z-index: 2;
     background-color: var(--red) ;
     height: 100%;
     border: none;

@@ -22,6 +22,9 @@
     border: none;
     text-align: center;
 }
+#header{
+    z-index: 2;
+}
 
 #header h1, #footer h1{
     color: var(--white);
@@ -93,7 +96,7 @@ input[type=number]
     color: var(--white);
 }
 .container{
-    margin-top: 130px; margin-bottom: 40px;
+    padding-top: 130px; margin-bottom: 40px;
 }
 @media screen and (max-width: 600px) {
     .tieudemat{
@@ -113,7 +116,7 @@ input[type=number]
     text-align: left;
     }
     .container{
-        margin-top: 85px;
+        padding-top: 85px;
         margin-bottom: 0px;
     }
 }
